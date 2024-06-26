@@ -1,0 +1,74 @@
+/* Resetea el estilo predeterminado del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #fcfbfb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+/* Estilo para las secciones izquierda, central y derecha de la barra de navegación */
+.navbar-left, .navbar-center, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de los botones de Sign Up y Log In */
+.navbar-left button {
+    background-color: #f9f9f9;
+    color: black;
+    border:2px solid #00BFFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-left button:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del logo */
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Estilo de los elementos de la lista dentro de la barra de navegación */
+.navbar-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* Estilo de los enlaces dentro de la barra de navegación */
+.navbar-right ul li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces al pasar el cursor */
+.navbar-right ul li a:hover {
+    background-color:white;
+    text-decoration: underline;
+}
+
+/* Estilo del contenido de la página */
+div {
+    padding: 20px;
+}
